@@ -1,0 +1,16 @@
+.logo {
+    height: 100px;
+}
+
+.header {
+    background-color: #a6b0ff;
+    font-size: calc(10px + 2vmin);
+}
+
+.container {
+    padding: 12px 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}

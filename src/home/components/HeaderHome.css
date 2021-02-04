@@ -1,0 +1,10 @@
+.container1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+}
