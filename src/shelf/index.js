@@ -24,11 +24,9 @@ const ShelfView = () => {
 
     return (
         <div>
-            {console.log(productos)}
-            { productos.length > 0 ?  
-                <List context={"/productos"} list={productos}/> :
-                null
-            }
+            <div className="container-list">
+                { productos.length > 0 ? <List context={"/productos"} list={productos}/> : null } 
+            </div>
         </div>
     )
 }

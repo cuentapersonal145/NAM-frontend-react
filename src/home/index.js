@@ -10,7 +10,7 @@ import opc1 from '../img/opc1.png'
 import './index.css'
 
 const elements = [
-    { id: "productos", nombre: "Productos", imagen: opc1 }
+    { id: "productos", nombre: "Productos", imagen: opc1, color: "#e5e7fa" }
 ]
 
 const HomeView = () => {

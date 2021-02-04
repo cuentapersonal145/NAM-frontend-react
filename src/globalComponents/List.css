@@ -1,31 +1,37 @@
+.container-list {
+    display: flex;
+    flex-flow: wrap;
+}
+
 .card-list {
     padding: 10px;
     margin: 20px;
-    width: 150px;
-    height: 200px;
-    background-color: #e5e7fa; /* 15067130 */
+    width: 125px;
+    height: 175px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     text-decoration: none;
+
 }
 
 .card-list:hover {
-    background-color: -1381115;
-    /* background-color: #d0d4ff;  13686015 */
+    border: 1px solid #6f77b8;
 }
 
 .card-list:active {
-    background-color: #d0d4ff;
     box-shadow: none;
 }
 
 .name-container {
     height: 100%;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    -webkit-text-stroke: 0.7px black;
+    color: white;
 }
