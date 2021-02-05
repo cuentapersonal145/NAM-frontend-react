@@ -7,4 +7,9 @@ export default class service {
         const url = `${API_URL}/api/producto/`;
         return axios.get(url);
     }
+
+    get_prod_data_service(id) {
+        const url = `${API_URL}/api/datos/producto/` + id + `/`;
+        return axios.get(url);
+    }
 }
