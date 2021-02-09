@@ -11,12 +11,12 @@ const ShelfView = () => {
     const [productos, setProductos] = useState([]);
     
     useEffect(() => {
-        objService.get_productos_service().then((result) => {
+        objService.get_marcas_service().then((result) => {
             setProductos(result.data);
         }).catch(() => {
             swal.fire(
                 'Ups ¡Error!',
-                'Fue al obtener los productos. Deberias intentar mas tarde o consultarlo con el administrador',
+                'Fue al obtener las marcas de los productos. Deberias intentar mas tarde o consultarlo con el administrador',
                 'error'
             );
         });
